@@ -1,0 +1,28 @@
+body {
+  font-size: 15pt;
+  font-family: "Segoe UI",sans-serif;
+  position: relative;
+  color: white;
+  background-color: black;
+}
+
+#no{
+  position: absolute;
+  background-color: red;
+  border: 2px solid #BD0000;
+  margin: 0.03em 0 0 0.5em;
+  color: black;
+}
+
+.btn{
+  transition-duration: 1s;
+  padding: 0.3em 1.8em 0.3em 1.8em;
+  border: 2px solid green;
+  background-color: lightgreen;
+  color: black;
+  outline: none;
+}
+
+.btn:hover, .btn:focus, #no:hover, #no:focus{
+  border: 2px solid yellow;
+}
